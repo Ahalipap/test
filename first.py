@@ -16,7 +16,7 @@ def is_jpg(file_name):
 
 # 判断文件是否为有效（完整）的图片
 # 从网络上判断图片是否损坏
-def IsValidImage(url):
+def IsValidImage_remote_img(url):
     b_valid = True
     try:
         buf = urllib.request.urlopen(url).read()  # bytearray
