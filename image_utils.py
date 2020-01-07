@@ -1,17 +1,7 @@
 import io
 import urllib
 from os import PathLike
-
 from PIL import Image
-
-
-def is_jpg(file_name):
-    try:
-        i = Image.open(file_name)
-        print(type(i))
-        return i.format == 'JPEG'
-    except:
-        return False
 
 
 # 判断文件是否为有效（完整）的图片
