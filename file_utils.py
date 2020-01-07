@@ -66,5 +66,6 @@ def get_file_md5(file_path):
 
 
 if __name__ == '__main__':
+    pass
 # move_file_to_typed_direct('/Users/ltb/Desktop/微信图片/', '/Users/ltb/Desktop/', 'jpg')
 # print(get_all_files('/Users/ltb/Desktop/微信图片/'))
